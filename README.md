@@ -8,10 +8,11 @@ Dataset
 
 Requirement
 ---------
-**00**
+** PyTorch framework, NVIDIA GeForce GTX 1080 GPU.**
 
 Implementation
 --------
+
 
 Result
 --------
