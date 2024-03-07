@@ -8,7 +8,7 @@ Dataset
 
 Requirement
 ---------
-**PyTorch, NVIDIA GeForce GTX 1080 GPU.**
+**PyThon _._._, PyTorch _._._, NVIDIA GeForce GTX 1080 GPU.**
 
 Implementation
 --------
