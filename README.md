@@ -1,6 +1,5 @@
 [MulSR](https://ieeexplore.ieee.org/document/10242161 "MulSR")
 ======
-**This is an implementation of Multi-Scale Factor Joint Learning for Hyperspectral Image Super-Resolution**
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/architecture.png)
 
 Abstract
@@ -20,7 +19,7 @@ Implementation
 **CAVE and Harvard datasets:** We select 80% samples to train. Then, these samples are randomly flipped, rotated, and rolled.  
 **Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
 
-In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images. Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to 0 and 0.001, respectively. With respect to experimental setup, we select the size of convolution kernels to be 3 × 3, except for the kernels mentioned above. Moreover, the number of these kernels is set to 64. Following previous works, we fix the learning rate at 10−4, and its value is halved every 30 epoch. To optimize our model, the ADAM optimizer with β1 = 0.9 and β2 = 0.99 is chosen. Moreover, we set 2α = β in our article.
+In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images. Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to 0 and 0.001, respectively. With respect to experimental setup, we select the size of convolution kernels to be 3 × 3, except for the kernels mentioned above. Moreover, the number of these kernels is set to 64. Following previous works, we fix the learning rate at 10^(−4), and its value is halved every 30 epoch. To optimize our model, the ADAM optimizer with β1 = 0.9 and β2 = 0.99 is chosen. Moreover, we set 2α = β in our article.
 
 Result
 --------
@@ -35,11 +34,32 @@ Computational Time Comparison
 -------
 
 
+
+
+	
+References
+----------
+[1]**Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
+[2]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 61, 2023, Art. no. 5512611.  
+[3]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “Symmetrical feature propagation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 60, 2022, Art. no. 5536912.  
+[4]Q. Wang, **Q. Li**, and X. Li, “Hyperspectral image superresolution using spectrum and feature context,” *IEEE Trans. Ind. Electron.*, vol. 68, no. 11, pp. 11276–11285, Nov. 2021.  
+[5]Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Trans. Geosci. Remote Sens.*, vol. 59, no. 6, pp. 5028–5039, Jun. 2021.  
+
+
 Citation 
 --------
 **Please consider cite this paper if you find it helpful.**
 
-	
-	
+@ARTICLE{10242161,
+  author={Li, Qiang and Yuan, Yuan and Wang, Qi},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-10},
+  keywords={Hyperspectral imaging;Feature extraction;Superresolution;Analytical models;Spatial resolution;Fuses;Task analysis;Compensation correction;contextual aggregation;hyperspectral image;joint optimization;super-resolution (SR)},
+  doi={10.1109/TGRS.2023.3312436}}
+  
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
