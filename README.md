@@ -51,6 +51,7 @@ Citation
 **Please consider cite this paper if you find it helpful.**
 
 @ARTICLE{10242161,
+  
   author={Li, Qiang and Yuan, Yuan and Wang, Qi},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution}, 
@@ -59,7 +60,8 @@ Citation
   number={},
   pages={1-10},
   keywords={Hyperspectral imaging;Feature extraction;Superresolution;Analytical models;Spatial resolution;Fuses;Task analysis;Compensation correction;contextual aggregation;hyperspectral image;joint optimization;super-resolution (SR)},
-  doi={10.1109/TGRS.2023.3312436}}
+  doi={10.1109/TGRS.2023.3312436}
+  }
   
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
