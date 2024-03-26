@@ -20,23 +20,23 @@ To evaluate the performance, we apply peak signal-to-noise ratio (PSNR), structu
 The underline and bold represent the way used in this article and best performance, respectively.  
 - Effect of different parts for MII unit on the performance  
   | Module | PNSR | SSIM | SAM | RMSE | Param |
-  |--------|------|------|-----|------|-------|
+  |:------:|:----:|:----:|:---:|:----:|:-----:|
   | w/o MII | 43.686 | 0.9910 | 3.904 | 0.0069 | 2427K |
   | w/ MII | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
   | w/o DSCA | 43.487 | 0.9901 | 4.337 | 0.0071 | 2452K |
 - Effect of LFCC on the performance  
   | Module | PNSR | SSIM | SAM | RMSE | Param |
-  |--------|------|------|-----|------|-------|
+  |:------:|:----:|:----:|:---:|:----:|:-----:|
   | w/o LFCC | 44.556 | 0.9923 | 3.752 | 0.0063 | 2381K |
   | w/ LFCC | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
 - Effect of multiscale strategy on the performance  
   | Type | PNSR | SSIM | SAM | RMSE | Param |
-  |--------|------|------|-----|------|-------|
+  |:----:|:----:|:----:|:---:|:----:|:-----:|
   | Single scale | 42.346 | 0.9866 | 5.196 | 0.0080 | 1187K |
   | Multi-scale | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
 - Effect of different numbers of cross-modal fusion module on the performance  
   | Metrics | 1 | 2 | 3 | 4 |
-  |--------|------|------|-----|------|
+  |:-------:|:------:|:------:|:-----:|:------:|
   | PNSR | 44.199 | 44.745 | 44.835 | 45.438 |
   | SSIM | 0.9911 | 0.9923 | 0.9925 | 0.9932 |
   | SAM | 3.904 | 3.694 | 3.536 | 3.486 |
@@ -46,10 +46,10 @@ The underline and bold represent the way used in this article and best performan
 ## Performance Comparison With Existing Approaches
 To show the superiority of the proposed method, we compare the proposed method with four existing approaches on different scale factors and datasets, including PZRes-Net, MoG-DCN, UAL, and CoarseNet.  
 
-Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
-![Fig. 1](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)
-The visual comparison of spectral distortion is displayed in Fig. 2. Likewise, the red curves of our MulSR are closer to ground truth.  
-![Fig. 2](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)
+- Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
+  ![Fig. 1](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)
+- The visual comparison of spectral distortion is displayed in Fig. 2. Likewise, the red curves of our MulSR are closer to ground truth.  
+  ![Fig. 2](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)
 
 ## References
 [1]**Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
