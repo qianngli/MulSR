@@ -18,31 +18,31 @@ In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectra
 
 ## Result  
 To evaluate the performance, we apply peak signal-to-noise ratio (PSNR), structural similarity (SSIM), spectral angle mapper (SAM), and root mean squared error (RMSE).  
-The underline and bold represent the way used in this article and best performance, respectively.  
+The  bold represent the way used in this article and best performance.  
 - Effect of different parts for MII unit on the performance  
   | Module | PNSR | SSIM | SAM | RMSE | Param |
   |:------:|:----:|:----:|:---:|:----:|:-----:|
-  | w/o MII | 43.686 | 0.9910 | 3.904 | 0.0069 | 2427K |
-  | w/ MII | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
+  | w/o MII | 43.686 | 0.9910 | 3.904 | 0.0069 | **2427K** |
+  | **w/ MII** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
   | w/o DSCA | 43.487 | 0.9901 | 4.337 | 0.0071 | 2452K |
 - Effect of LFCC on the performance  
   | Module | PNSR | SSIM | SAM | RMSE | Param |
   |:------:|:----:|:----:|:---:|:----:|:-----:|
-  | w/o LFCC | 44.556 | 0.9923 | 3.752 | 0.0063 | 2381K |
-  | w/ LFCC | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
+  | w/o LFCC | 44.556 | **0.9923** | 3.752 | 0.0063 | **2381K** |
+  | **w/ LFCC** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
 - Effect of multiscale strategy on the performance  
   | Type | PNSR | SSIM | SAM | RMSE | Param |
   |:----:|:----:|:----:|:---:|:----:|:-----:|
-  | Single scale | 42.346 | 0.9866 | 5.196 | 0.0080 | 1187K |
-  | Multi-scale | 44.745 | 0.9923 | 3.694 | 0.0061 | 2509K |
+  | Single scale | 42.346 | 0.9866 | 5.196 | 0.0080 | **1187K** |
+  | **Multi-scale** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
 - Effect of different numbers of cross-modal fusion module on the performance  
   | Metrics | 1 | 2 | 3 | 4 |
   |:-------:|:------:|:------:|:-----:|:------:|
-  | PNSR | 44.199 | 44.745 | 44.835 | 45.438 |
-  | SSIM | 0.9911 | 0.9923 | 0.9925 | 0.9932 |
-  | SAM | 3.904 | 3.694 | 3.536 | 3.486 |
-  | RMSE | 0.0065 | 0.0061 | 0.0061 | 0.0057 |
-  | Param | 1446K | 2509K | 3572K | 4636K |
+  | PNSR | 44.199 | 44.745 | 44.835 | **45.438** |
+  | SSIM | 0.9911 | 0.9923 | 0.9925 | **0.9932** |
+  | SAM | 3.904 | 3.694 | 3.536 | **3.486** |
+  | RMSE | 0.0065 | 0.0061 | 0.0061 | **0.0057** |
+  | Param | **1446K** | 2509K | 3572K | 4636K |
   
 ## Performance Comparison With Existing Approaches
 To show the superiority of the proposed method, we compare the proposed method with four existing approaches on different scale factors and datasets, including PZRes-Net, MoG-DCN, UAL, and CoarseNet.  
@@ -53,12 +53,11 @@ To show the superiority of the proposed method, we compare the proposed method w
   ![Fig. 2](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)
 
 ## References
-[1]**Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
-[2]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 61, 2023, Art. no. 5512611.  
-[3]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “Symmetrical feature propagation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 60, 2022, Art. no. 5536912.  
-[4]Q. Wang, **Q. Li**, and X. Li, “Hyperspectral image superresolution using spectrum and feature context,” *IEEE Trans. Ind. Electron.*, vol. 68, no. 11, pp. 11276–11285, Nov. 2021.  
-[5]Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Trans. Geosci. Remote Sens.*, vol. 59, no. 6, pp. 5028–5039, Jun. 2021.  
-
+[1] **Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
+[2] **Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 61, 2023, Art. no. 5512611.  
+[3] **Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “Symmetrical feature propagation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 60, 2022, Art. no. 5536912.  
+[4] Q. Wang, **Q. Li**, and X. Li, “Hyperspectral image superresolution using spectrum and feature context,” *IEEE Trans. Ind. Electron.*, vol. 68, no. 11, pp. 11276–11285, Nov. 2021.  
+[5] Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Trans. Geosci. Remote Sens.*, vol. 59, no. 6, pp. 5028–5039, Jun. 2021.  
 
 ## Citation 
 **Please consider cite this paper if you find it helpful.**
@@ -76,4 +75,5 @@ To show the superiority of the proposed method, we compare the proposed method w
     }
   
 --------
+  
 If you has any questions, please send e-mail to liqmges@gmail.com.
