@@ -43,21 +43,15 @@ The underline and bold represent the way used in this article and best performan
   | RMSE | 0.0065 | 0.0061 | 0.0061 | 0.0057 |
   | Param | 1446K | 2509K | 3572K | 4636K |
   
-## Recommended Bands Comparison:
----------
+## Performance Comparison With Existing Approaches
+To show the superiority of the proposed method, we compare the proposed method with four existing approaches on different scale factors and datasets, including PZRes-Net, MoG-DCN, UAL, and CoarseNet.  
 
-Classification Performance Comparison:
-----------
+Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
+![Fig. 1](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)
+The visual comparison of spectral distortion is displayed in Fig. 2. Likewise, the red curves of our MulSR are closer to ground truth.  
+![Fig. 2](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)
 
-Computational Time Comparison
--------
-
-
-
-
-	
-References
-----------
+## References
 [1]**Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
 [2]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 61, 2023, Art. no. 5512611.  
 [3]**Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “Symmetrical feature propagation network for hyperspectral image super-resolution,” *IEEE Trans. Geosci. Remote Sens.*, vol. 60, 2022, Art. no. 5536912.  
@@ -65,8 +59,7 @@ References
 [5]Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Trans. Geosci. Remote Sens.*, vol. 59, no. 6, pp. 5028–5039, Jun. 2021.  
 
 
-Citation 
---------
+## Citation 
 **Please consider cite this paper if you find it helpful.**
 
     @ARTICLE{10242161,
