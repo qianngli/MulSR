@@ -20,18 +20,18 @@ In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectra
 To evaluate the performance, we apply peak signal-to-noise ratio (PSNR), structural similarity (SSIM), spectral angle mapper (SAM), and root mean squared error (RMSE).  
 The  bold represent the way used in this article and best performance.  
 - Effect of different parts for MII unit on the performance  
-  | Module | PNSR | SSIM | SAM | RMSE | Param |
+  | Module | PNSR | SSIM | SAM | RMSE | Param. |
   |:------:|:----:|:----:|:---:|:----:|:-----:|
   | w/o MII | 43.686 | 0.9910 | 3.904 | 0.0069 | **2427K** |
   | **w/ MII** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
   | w/o DSCA | 43.487 | 0.9901 | 4.337 | 0.0071 | 2452K |
 - Effect of LFCC on the performance  
-  | Module | PNSR | SSIM | SAM | RMSE | Param |
+  | Module | PNSR | SSIM | SAM | RMSE | Param. |
   |:------:|:----:|:----:|:---:|:----:|:-----:|
   | w/o LFCC | 44.556 | **0.9923** | 3.752 | 0.0063 | **2381K** |
   | **w/ LFCC** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
 - Effect of multiscale strategy on the performance  
-  | Type | PNSR | SSIM | SAM | RMSE | Param |
+  | Type | PNSR | SSIM | SAM | RMSE | Param. |
   |:----:|:----:|:----:|:---:|:----:|:-----:|
   | Single scale | 42.346 | 0.9866 | 5.196 | 0.0080 | **1187K** |
   | **Multi-scale** | **44.745** | **0.9923** | **3.694** | **0.0061** | 2509K |
@@ -42,7 +42,7 @@ The  bold represent the way used in this article and best performance.
   | SSIM | 0.9911 | 0.9923 | 0.9925 | **0.9932** |
   | SAM | 3.904 | 3.694 | 3.536 | **3.486** |
   | RMSE | 0.0065 | 0.0061 | 0.0061 | **0.0057** |
-  | Param | **1446K** | 2509K | 3572K | 4636K |
+  | Param. | **1446K** | 2509K | 3572K | 4636K |
   
 ## Performance Comparison With Existing Approaches
 To show the superiority of the proposed method, we compare the proposed method with four existing approaches on different scale factors and datasets, including PZRes-Net, MoG-DCN, UAL, and CoarseNet.  
