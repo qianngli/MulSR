@@ -60,8 +60,8 @@ To show the superiority of the proposed method, we compare the proposed method w
 [5] Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Trans. Geosci. Remote Sens.*, vol. 59, no. 6, pp. 5028–5039, Jun. 2021.  
 
 ## Citation 
-
 Please consider cite this paper if you find it helpful.  
+
     @ARTICLE{10242161,
       author={Li, Qiang and Yuan, Yuan and Wang, Qi},
       journal={IEEE Transactions on Geoscience and Remote Sensing}, 
