@@ -1,6 +1,7 @@
 <div align="justify">
-
-# [Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution](https://ieeexplore.ieee.org/document/10242161 "Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution")  
+  <div align="center">
+  # [Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution](https://ieeexplore.ieee.org/document/10242161 "Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution")  
+  </div>
 
 ## Abstract  
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/architecture.png)  
