@@ -14,6 +14,7 @@ As for the SR task, current hyperspectral image SR methods usually construct cor
 
 ## Dataset  
 Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ "CAVE"), [Harvard](https://dataverse.harvard.edu/ "Harvard"), and [Sample of Roman Colosseum](https://earth.esa.int/eogateway/missions/worldview-2 "Sample of Roman Colosseum"), are employed to verify the effectiveness of the proposed MulSR.  
+
 **CAVE and Harvard datasets:** We select 80% samples to train. Then, these samples are randomly flipped, rotated, and rolled.  
 **Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
 
