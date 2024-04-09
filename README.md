@@ -34,11 +34,11 @@ In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectra
 To evaluate the performance and demonstrate the superiority of the proposed method, we apply peak signal-to-noise ratio (**PSNR**), structural similarity (**SSIM**), spectral angle mapper (**SAM**), and root mean squared error (**RMSE**) for comparison with four existing approaches—**PZRes-Net**, **MoG-DCN**, **UAL**, and **CoarseNet**—across different scale factors and datasets. The best result and second result are denoted as the bold and underline, respectively.  
 ![TABLE_V-VI](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_V-VI.png)  
 - Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
-  ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)
+  ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)  
 - Fig. 2 displays the visual comparison of spectral distortion. Likewise, the red curves of our MulSR are closer to ground truth.  
-  ![Fig6](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)
-- Fig. 3 provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.
-  ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)
+  ![Fig6](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)  
+- Fig. 3 provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.  
+  ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)  
 
 ## Citation 
 [1] **Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Trans. Image Process.*, vol. 31, pp. 7252–7263, 2022.  
