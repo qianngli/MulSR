@@ -1,3 +1,5 @@
+<div align="justify">
+
 # [Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution](https://ieeexplore.ieee.org/document/10242161 "Multiscale Factor Joint Learning for Hyperspectral Image Super-Resolution")  
 
 ## Abstract  
@@ -43,3 +45,5 @@ To evaluate the performance, we apply peak signal-to-noise ratio (PSNR), structu
 
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
+
+</div>
