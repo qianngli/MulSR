@@ -13,8 +13,14 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 **Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
 
 ## Dependencies  
-
 **PyTorch, NVIDIA GeForce GTX 1080 GPU.**
+- Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
+- [PyTorch >= 1.0](https://pytorch.org/)
+- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+- Python packages: `pip install numpy opencv-python lmdb pyyaml`
+- TensorBoard: 
+  - PyTorch >= 1.1: `pip install tb-nightly future`
+  - PyTorch == 1.0: `pip install tensorboardX`
 
 ## Implementation  
 In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images. Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to 0 and 0.001, respectively. With respect to experimental setup, we select the size of convolution kernels to be 3 × 3, except for the kernels mentioned above. Moreover, the number of these kernels is set to 64. Following previous works, we fix the learning rate at 10^(−4), and its value is halved every 30 epoch. To optimize our model, the ADAM optimizer with β1 = 0.9 and β2 = 0.99 is chosen. Moreover, we set 2α = β in our article.
