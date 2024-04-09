@@ -42,11 +42,11 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 
 *The best result and second result are denoted as the bold and underline, respectively.*  
 ![TABLE_V-VI](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_V-VI.png)  
-- Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
+- **Fig. 1** shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
   ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)  
-- Fig. 2 displays the visual comparison of spectral distortion. Likewise, the red curves of our MulSR are closer to ground truth.  
+- **Fig. 2** displays the visual comparison of spectral distortion. Likewise, the red curves of our MulSR are closer to ground truth.  
   ![Fig6](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)  
-- Fig. 3 provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.  
+- **Fig. 3** provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.  
   ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)  
 
 ## Citation 
