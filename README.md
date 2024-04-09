@@ -12,13 +12,8 @@ Hyperspectral image super-resolution (SR) using auxiliary RGB image has obtained
 ## Motivation  
 As for the SR task, current hyperspectral image SR methods usually construct corresponding models according to different scale factors, respectively. Without loss of generality, the super-resolved images with different scale factors contain obvious texture differences. Additionally, the greater the scale factor is, the more serious the detail loss in the reconstructed images is. If this texture difference can be used effectively, it really enhances performance in scenarios. For example, the features with low detail loss can be utilized to guide the model learning with high detail loss. Nevertheless, the above hyperspectral image SR approaches do not build models from this perspective. Moreover, SR images obtained under different scale factors are converted to the images with same size. Ideally, the results should be consistent in terms of spatial and spectral contents. This can actually constrain the generated SR images by this manner. At present, existing hyperspectral image SR methods do not consider the consistency of information representation. Theoretically, the texture details of the image can be refined by adding more scale factors for inconsistent analysis. Although current natural SR methods utilize some scale factors to build models, they do not fully explore the interdependence by more branches. Therefore, how to utilize the model with small scale factor to assist the model with large scale factor for joint SR, so as to establish the interdependence among different scale factors in single model, needs further study.
 
-## Dataset  
-Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ "CAVE"), [Harvard](https://dataverse.harvard.edu/ "Harvard"), and [Sample of Roman Colosseum](https://earth.esa.int/eogateway/missions/worldview-2 "Sample of Roman Colosseum"), are employed to verify the effectiveness of the proposed MulSR.  
-
-**CAVE and Harvard datasets:** We select 80% samples to train. Then, these samples are randomly flipped, rotated, and rolled.  
-**Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
-
-## Dependencies  
+## Installation
+### Dependencies  
 **PyTorch, NVIDIA GeForce GTX 1080 GPU.**
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch >= 1.0](https://pytorch.org/)
@@ -28,7 +23,13 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
   - PyTorch >= 1.1: `pip install tb-nightly future`
   - PyTorch == 1.0: `pip install tensorboardX`
 
-## Implementation  
+### Dataset Preparation 
+Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ "CAVE"), [Harvard](https://dataverse.harvard.edu/ "Harvard"), and [Sample of Roman Colosseum](https://earth.esa.int/eogateway/missions/worldview-2 "Sample of Roman Colosseum"), are employed to verify the effectiveness of the proposed MulSR.  
+
+**CAVE and Harvard datasets:** We select 80% samples to train. Then, these samples are randomly flipped, rotated, and rolled.  
+**Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
+
+### Implementation  
 - In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images. 
 - Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to **0** and **0.001**, respectively. 
 - With respect to experimental setup, we select the size of convolution kernels to be **3 × 3**, except for the kernels mentioned above. Moreover, the number of these kernels is set to **64**. 
