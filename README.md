@@ -29,7 +29,7 @@ In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectra
 To evaluate the performance, we apply peak signal-to-noise ratio (PSNR), structural similarity (SSIM), spectral angle mapper (SAM), and root mean squared error (RMSE).  
 To show the superiority of the proposed method, we compare the proposed method with four existing approaches on different scale factors and datasets, including PZRes-Net, MoG-DCN, UAL, and CoarseNet.  
 The best result and second result are denoted as the bold and underline, respectively.
-![TABLE_V](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_V.png) ![TABLE_VI](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_VI.png)  
+![TABLE_V-VI](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_V-VI.png)  
 - Fig. 1 shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
   ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)
 - The visual comparison of spectral distortion is displayed in Fig. 2. Likewise, the red curves of our MulSR are closer to ground truth.  
