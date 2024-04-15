@@ -34,20 +34,20 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 **Sample of Roman Colosseum dataset:** The image in the training set is randomly cropped to obtain 64 patches with the size 12 × 12 β. Similarly, these patches are augmented by above way.  
 
 ## Implementation  
-- In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images.  
-- Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to **0** and **0.001**, respectively.  
+- In test stage, anisotropic Gaussian is first applied to blur the HR hyperspectral images.
+- Then, we downsample the blur images according to scale factor and add Gaussian noise to obtain test images. Here, the mean and variance of parameters are set to **0** and **0.001**, respectively.
 - With respect to experimental setup, we select the size of convolution kernels to be **3 × 3**, except for the kernels mentioned above. Moreover, the number of these kernels is set to **64**.
 
-        parser.add_argument('--kernel_size', type=int, default=3, help='number of module')  
+        parser.add_argument('--kernel_size', type=int, default=3, help='number of module')
         parser.add_argument('--n_feats', type=int, default=64, help='number of feature maps')
 
 - Following previous works, we fix the learning rate at **10^(−4)**, and its value is halved every **30** epoch.
 
-        parser.add_argument("--lr", type=int, default=1e-4, help="lerning rate")  
+        parser.add_argument("--lr", type=int, default=1e-4, help="lerning rate")
         parser.add_argument("--step", type=int, default=30, help="Sets the learning rate to the initial LR decayed by momentum every n epochs")
 
-- To optimize our model, the ADAM optimizer with **β1 = 0.9** and **β2 = 0.99** is chosen.  
-- Moreover, we set **2α = β** in our article.  
+- To optimize our model, the ADAM optimizer with **β1 = 0.9** and **β2 = 0.99** is chosen.
+- Moreover, we set **2α = β** in our article.
 
 ## Result  
 - To demonstrate the superiority of the proposed method, four approaches are compared with our method in each dimension. They are **MoG-DCN**, **UAL**, **PZRes-Net**, and **CoarseNet**. Among these competitors, UAL and CoarseNet contain two steps. The first step is to learn a general model by supervised manner. The second step is to optimize the model in specific image by unsupervised manner. Note that two methods need spectral response function in second step. For fair comparison, we remove the second step. The remaining works are supervised approaches.  
