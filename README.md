@@ -8,7 +8,7 @@
 --------  
 
 ## Update
-**[2023-08-27]** MuISR v0.1 is modified.  
+**[2023-08-27]** MulSR v0.1 is modified.  
 
 ## Abstract  
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/architecture.png)  
