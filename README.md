@@ -83,8 +83,8 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 [1] **Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 61, pp. 1-11, 2023.  
 [2] **Q. Li**, Y. Yuan, X. Jia, and Q. Wang, “Dual-stage approach toward hyperspectral image super-resolution,” *IEEE Transactions on Image Processing*, vol. 31, pp. 7252–7263, 2022.  
 [3] **Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “Symmetrical feature propagation network for hyperspectral image super-resolution,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 60, pp. 1-12, 2022.  
-[4] Q. Wang, **Q. Li**, and X. Li, “Hyperspectral image superresolution using spectrum and feature context,” *IEEE Transactions on Industrial Electronics*, vol. 68, pp. 11276–11285, 2021.  
-[5] Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 59, pp. 5028–5039, 2021.  
+[4] Q. Wang, **Q. Li**, and X. Li, “Hyperspectral image superresolution using spectrum and feature context,” *IEEE Transactions on Industrial Electronics*, vol. 68, no. 11, pp. 11276–11285, 2021.  
+[5] Q. Wang, **Q. Li**, and X. Li, “A fast neighborhood grouping method for hyperspectral band selection,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 59, no. 6, pp. 5028–5039, 2021.  
 
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
