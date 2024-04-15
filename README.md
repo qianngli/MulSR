@@ -8,7 +8,7 @@
 --------  
 
 ## Update
-[2023-08-27] MuISR v0.1 is modified.  
+**[2023-08-27]** MuISR v0.1 is modified.  
 
 ## Abstract  
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/architecture.png)  
@@ -50,16 +50,17 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 - Moreover, we set **2α = β** in our article.
 
 ## Result  
-- To demonstrate the superiority of the proposed method, four approaches are compared with our method in each dimension. They are **MoG-DCN**, **UAL**, **PZRes-Net**, and **CoarseNet**. Among these competitors, UAL and CoarseNet contain two steps. The first step is to learn a general model by supervised manner. The second step is to optimize the model in specific image by unsupervised manner. Note that two methods need spectral response function in second step. For fair comparison, we remove the second step. The remaining works are supervised approaches.  
 - To evaluate the performance, we apply peak signal-to- noise ratio (**PSNR**), structural similarity (**SSIM**), spectral angle mapper (**SAM**), and root mean squared error (**RMSE**). Here, the higher values of PSNR and SSIM indicate better quality of reconstructed image. Besides, the obtained image is better in the aspects of edge and texture, when the values of SAM and RMES are small.  
-
 ![TABLE_V-VI](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/TABLE_V-VI.png)  
-- **Fig. 1** shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
-  ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)  
-- **Fig. 2** displays the visual comparison of spectral distortion. Likewise, the red curves of our MulSR are closer to ground truth.  
-  ![Fig6](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)  
-- **Fig. 3** provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.  
-  ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)  
+
+- To demonstrate the superiority of the proposed method, four approaches are compared with our method in each dimension. They are **MoG-DCN**, **UAL**, **PZRes-Net**, and **CoarseNet**. Among these competitors, UAL and CoarseNet contain two steps. The first step is to learn a general model by supervised manner. The second step is to optimize the model in specific image by unsupervised manner. Note that two methods need spectral response function in second step. For fair comparison, we remove the second step. The remaining works are supervised approaches.  
+
+  - **Fig. 1** shows the visual comparison of spatial reconstruction. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.  
+    ![Fig5](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig5.png)  
+  - **Fig. 2** displays the visual comparison of spectral distortion. Likewise, the red curves of our MulSR are closer to ground truth.  
+    ![Fig6](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig6.png)  
+  - **Fig. 3** provides the visual results on this dataset. The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.  
+    ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)  
 
 ## Citation 
 [1] **Q. Li**, M. Gong, Y. Yuan, and Q. Wang, “RGB-induced feature modulation network for hyperspectral image super-resolution,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 61, pp. 1-11, 2023.  
