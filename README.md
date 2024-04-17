@@ -64,7 +64,7 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
   
 </div>
     
-- *Fig. 1. Visual comparison in spatial reconstruction on two dataset. The first and second lines are the visual images of the 10th and 20th bands, respectively.One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.*  
+*Fig. 1. Visual comparison in spatial reconstruction on two dataset. The first and second lines are the visual images of the 10th and 20th bands, respectively.One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.*  
 
 <div align="center">   
   
@@ -72,13 +72,15 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
   
 </div>
     
-- *Fig. 2. Visual comparison in spectral distortion by selecting two pixels. The left to right columns are the visual results of above images.The red curves of our MulSR are closer to ground truth.*  
+*Fig. 2. Visual comparison in spectral distortion by selecting two pixels. The left to right columns are the visual results of above images.The red curves of our MulSR are closer to ground truth.*  
 
 ### Application on Real Hyperspectral Image
 
-    <div align="center">
-      ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)
-    </div>
+<div align="center">
+  
+  ![Fig7](https://raw.githubusercontent.com/qianngli/Images/master/MulSR/Fig7.png)
+  
+</div>
 
 *Fig. 3. Visual comparison on real hyperspectral image dataset. We choose the 2–3–5 bands after SR to synthesize the pseudocolor image.The figure illustrates that our method yields good visual effect on the details, especially the edges. It reveals that our MulSR can address real degraded images well.*  
 
