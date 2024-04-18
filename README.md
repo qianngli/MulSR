@@ -37,8 +37,8 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 ### Pretrained model
 1. You could download the [pre-trained model](https://github.com/qianngli/MulSR/blob/master/pre-train%20model.txt) from [HERE](https://drive.google.com/drive/folders/1LuXDv5__KDdC3EeJZU5DOMmbs0L4bE7I?usp=sharing).  
 2. Remember to change the following path to yours：
-   - [`MulSR/train.py`] line 36  line 39
-   - [`MulSR/fine.py`] line 71 line 72
+   - `MulSR/train.py` line 36, 39.
+   - `MulSR/fine.py` line 71, 72.
 
 ### Train
 - With respect to experimental setup, we select the size of convolution kernels to be **3 × 3**, except for the kernels mentioned above. Moreover, the number of these kernels is set to **64**.
