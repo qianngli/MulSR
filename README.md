@@ -60,7 +60,6 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 - To optimize our model, the **ADAM** optimizer with **β1 = 0.9** and **β2 = 0.99** is chosen.
 - Moreover, we set **2α = β** in our article.
 
-
 ## Result  
 
 - To demonstrate the superiority of the proposed method, four approaches are compared with our method in each dimension. They are **MoG-DCN**, **UAL**, **PZRes-Net**, and **CoarseNet**. Among these competitors, UAL and CoarseNet contain two steps. The first step is to learn a general model by supervised manner. The second step is to optimize the model in specific image by unsupervised manner. Note that two methods need spectral response function in second step. For fair comparison, we remove the second step. The remaining works are supervised approaches.
