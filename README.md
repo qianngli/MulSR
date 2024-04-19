@@ -35,12 +35,16 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 
 ## Implementation  
 ### Pretrained model
+1. Clone this repo:  
+        git clone https://github.com/yuanjunchai/IKC.git
+        cd IKC
+1. Install PyTorch and dependencies from [http://pytorch.org](http://pytorch.org)
 1. You could download the [pre-trained model](https://github.com/qianngli/MulSR/blob/master/pre-train%20model.txt) from [HERE](https://drive.google.com/drive/folders/1LuXDv5__KDdC3EeJZU5DOMmbs0L4bE7I?usp=sharing).  
-2. Remember to change the following path to yours：
+1. Remember to change the following path to yours：
    - `MulSR/train.py` line 36, 39.
    - `MulSR/fine.py` line 71, 72.
 
-### Train
+### Main parameter settings
 - With respect to experimental setup, we select the size of convolution kernels to be **3 × 3**, except for the kernels mentioned above. Moreover, the number of these kernels is set to **64**.
 
         parser.add_argument('--kernel_size', type=int, default=3, help='number of module')
