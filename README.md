@@ -37,8 +37,8 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 ### Pretrained model
 1. Clone this repo:
  
-        git clone https://github.com/yuanjunchai/IKC.git
-        cd IKC
+        git clone https://github.com/qianngli/MulSR.git
+        cd MulSR
 
 1. Install PyTorch and dependencies from [http://pytorch.org](http://pytorch.org).  
 1. You could download the [pre-trained model](https://github.com/qianngli/MulSR/blob/master/pre-train%20model.txt) from [HERE](https://drive.google.com/drive/folders/1LuXDv5__KDdC3EeJZU5DOMmbs0L4bE7I?usp=sharing).  
