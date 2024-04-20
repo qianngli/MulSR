@@ -83,7 +83,7 @@ You can train or test directly from the command line as such:
   
 </div>
     
-*Fig. 1. Visual comparison in spatial reconstruction on two dataset. The first and second lines are the visual images of the 10th and 20th bands, respectively.One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.*  
+*Fig. 1. Visual comparison in spatial reconstruction on two dataset. The first and second lines are the visual images of the 10th and 20th bands, respectively. One can observe that our method obtains more bluer in the enlarged area. In particular, the contents around the edges are very light in this area.*  
 
 <div align="center">   
   
