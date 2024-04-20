@@ -35,7 +35,7 @@ Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/
 
 ## Implementation  
 ### Pretrained model
-1. Clone this repo:
+1. Clone this repository:
  
         git clone https://github.com/qianngli/MulSR.git
         cd MulSR
